@@ -1,0 +1,119 @@
+.elementor-kit-5{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-5 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.img-profile{
+    border-radius: 60% !important;
+    height: 75px !important;
+    max-width: 75px!important;
+    margin-bottom: 10px;
+}
+.user-profile{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.user-profile .red-col{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', Sans-Serif;
+    font-weight: 500;
+    width: auto;
+    padding: 0px 7px;
+    background-color: #cc0b06;
+    display: inline-table;
+    border-radius: 5px;
+    font-size: 10px;
+}
+p{
+    margin-bottom: 0px !important;
+}
+
+.table{
+    border: none;
+    top: -32px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.table.no-border th,
+.table.no-border td{
+    text-align: center;
+    border: none;
+    padding: 5px 0px;
+    font-family: 'Roboto', Sans-Serif;
+}
+.table.no-border th{
+    font-size: 14px
+}
+.table.no-border td{
+    font-size: 12px;
+}
+.table.no-border td:first-child,
+.table.no-border th:first-child{
+    text-align: left;
+}
+.table.no-border td div.user-point,
+.table.no-border tfoot td a,
+.table.no-border tfoot td .more-btn{
+    background-color: #cc0b06;
+    display: inline-table;
+    width: 100%;
+    border-radius: 5px;
+}
+.table.no-border tfoot td:first-child{
+    text-align: center;
+}
+.table.no-border tfoot td a,
+.table.no-border tfoot td .more-btn{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', Sans-Serif;
+    font-weight: 500;
+    width: auto;
+    padding: 1px 20px
+}
+.table.no-border tfoot td .more-btn{
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+
+.circuit-mdlk{
+    position: absolute;
+    width: 100%;
+}
+.mandalika-circuit{
+    display: none;
+}
+/*.circuit-container {
+    width: 981px;
+    position: relative;
+    margin: 0 auto;
+}*/
+.car {
+    width: 1.3rem;
+    height: 1.3rem;
+    position: absolute;
+    font-size: 0px;
+    text-align: center;
+    background-color: #ffffff;
+    top: -17px;
+    left: -17px;
+    border-radius: 50%;
+    border: 0.3rem solid #3c8fe4;
+}
+.car::after{
+    content: '';
+    background-color: #3c8fe4;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2px;
+}
+#car-1{
+    border-color: #3c8fe4;
+}
+#car-2{
+    border-color: #da4132;
+}
+#car-3{
+    border-color: #17a05d;
+}/* End custom CSS */
